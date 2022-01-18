@@ -9,5 +9,6 @@ def print_index_of_max(a_list):
 	return max_index
 
 if __name__ == "__main__":
-	my_int = split(input("Please enter a list of integers separated by spaces"))
+	my_int_str = input("Please enter a list of integers separated by spaces")
+	my_list = my_int_str.split()
 	print(print_index_of_max(my_list))
