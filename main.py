@@ -9,5 +9,5 @@ def print_index_of_max(a_list):
 	return max_index
 
 if __name__ == "__main__":
-  my_list = [1, 5, 7, 3, 10, 45, 7, -5]
-  print(print_index_of_max(my_list))
+	my_list = [1, 5, 7, 3, 10, 45, 7, -5]
+	print(print_index_of_max(my_list))
