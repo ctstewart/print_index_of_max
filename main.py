@@ -2,7 +2,6 @@ def print_index_of_max(a_list):
 	max_index = 0
 	max_num = a_list[0]
 	for index, i in enumerate(a_list):
-		print(index)
 		if (i > max_num):
 			max_index = index
 			max_num = i
